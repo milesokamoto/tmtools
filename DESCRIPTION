@@ -1,0 +1,17 @@
+Package: tmtools
+Type: Package
+Title: Trackman Tools
+Version: 0.1.0
+Description: Contains functions allowing for manipulation and analysis of Trackman data
+Authors@R: person("Miles", "Okamoto", email = "milesokamoto@gmail.com",
+                  role = c("aut", "cre"))
+Description: What the package does (one paragraph)
+Depends: R (>= 3.1.0)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+  dplyr,
+  ggplot2,
+  readr,
+  tibble
